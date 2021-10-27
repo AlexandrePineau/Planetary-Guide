@@ -1,4 +1,8 @@
-﻿h1 {
+﻿body {
+    background-color: #c7c7c7;
+}
+
+h1 {
     font-family: "Eras ITC";
     font-size: 5.5em;
     font-weight: 800;
@@ -7,19 +11,20 @@
     text-align: center;
 }
 
-#planets{
-    margin: auto;
+#planets {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 
-h2{
+th {
     font-family: 'Arial Rounded MT';
     font-size: 2.5em;
 }
 
-.dropdown{
-    margin-top: 2.5%;
-    padding: 10px;
-    float: left;
+.planet-img {
+    width: 200px;
+    height: 200px;
 }
 
 .dropdown-content {
