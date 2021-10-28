@@ -9,6 +9,11 @@ h1 {
     font-style: italic;
     margin-top: 5%;
     text-align: center;
+    color: white;
+}
+
+.planet {
+    display: none;
 }
 
 #planets {
@@ -20,6 +25,7 @@ h1 {
 th {
     font-family: 'Arial Rounded MT';
     font-size: 2.5em;
+    color: white;
 }
 
 .planet-img {
