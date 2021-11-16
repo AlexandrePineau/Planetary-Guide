@@ -1,4 +1,6 @@
-﻿body {
+﻿/* New CSS */
+
+body {
     background-image: url('Images/stars2.png');
 }
 
@@ -10,10 +12,6 @@ h1 {
     margin-top: 5%;
     text-align: center;
     color: white;
-}
-
-.planet {
-    display: none;
 }
 
 #planets {
@@ -28,9 +26,37 @@ th {
     color: white;
 }
 
+td {
+    margin: 2%;
+}
+
 .planet-img {
     width: 200px;
     height: 200px;
+    animation-name: planet-off-hover;
+    animation-duration: 1s;
+}
+
+@keyframes planet-off-hover {
+    from {width: 260px; height: 260px;}
+    to {width: 200px; height: 200px;}
+}
+
+.planet-img:hover {
+    animation-name: planet-hover;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes planet-hover {
+    from {width: 200px; height: 200px}
+    to {width: 260px; height: 260px;}
+}
+
+/* Old CSS */
+
+.planet {
+    display: none;
 }
 
 .dropdown-content {
