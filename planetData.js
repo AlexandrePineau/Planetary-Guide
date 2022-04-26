@@ -77,7 +77,16 @@ var saturnData = `
 `;
 
 var uranusData = `
-
+    <h2>Uranus</h2>
+    <ul>
+        <li>Equatorial Diameter: 50,724 km</li>
+        <li>Polar Diameter: 49,946 km</li>
+        <li>Mass: 8.7 x 10^25 kg (15 Earths)</li>
+        <li>Moons: 27</li>
+        <li>Orbital Distance: 2,870,658,186 km (19.19 AU)</li>
+        <li>Orbital period: 30,687 days (84 years)</li>
+        <li>Surface Temperature: -214 °C</li>
+    </ul>
 `;
 
 var neptuneData = `
@@ -89,7 +98,7 @@ var neptuneData = `
         <li>Moons: 14</li>
         <li>Orbit Distance: 4,498,396,441 km (30.10 AU)</li>
         <li>Orbit Period: 60,190 days (164.8 years)</li>
-        <li>Surface Temperature: -201 °C</li>
+        <li>Surface Temperature: -220 °C</li>
     </ul>
 `;
 
