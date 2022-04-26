@@ -26,6 +26,17 @@ th {
     color: white;
 }
 
+#info-box {
+    font-family: 'Arial Rounded MT';
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+#planet-data {
+    color: white;
+}
+
 .planet-img {
     width: 100px;
     height: 100px;
